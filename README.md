@@ -21,13 +21,6 @@ This is a **Streamlit web app** that predicts a student’s academic performance
 
 ---
 
-## **Demo Screenshot**
-
-![App Screenshot](screenshot.png)
-*(Replace with your actual screenshot of the app)*
-
----
-
 ## **Installation**
 
 1. **Clone the repository**
