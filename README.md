@@ -95,7 +95,10 @@ student-performance-predictor/
 
 * Python 3.8+
 * Streamlit
+* numpy
 * pandas
+* matplotlib
+* seaborn
 * scikit-learn
 * joblib
 
@@ -132,24 +135,5 @@ joblib.dump(model, "Student_academic_performance.joblib")
 
 ---
 
-## **Contributing**
 
-Contributions are welcome!
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
-
----
-
-## **License**
-
-This project is licensed under the MIT License.
-
----
-
-I can also **write a ready-to-use `requirements.txt` file** for your project so anyone can install dependencies easily.
-
-Do you want me to do that?
