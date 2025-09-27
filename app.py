@@ -12,7 +12,7 @@ from sklearn.linear_model import LinearRegression
 # import pickle
 # pickle.dump(model, open("model.pkl", "wb"))
 
-model = joblib.load("Student_academic_performance.joblib")
+model = joblib.load("model.joblib")
 
 # -----------------------------
 # App Title
@@ -62,3 +62,4 @@ input_df = pd.DataFrame([[gender_val, study_hours, attendance, past_scores,
 if st.button("Predict Performance"):
     prediction = model.predict(input_df)
     st.success(f"Marks at Final Exam: {prediction[0]:.2f}")
+
