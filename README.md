@@ -1,10 +1,3 @@
-# Student-Academic-Performance-prediction
-Predict student academic performance using a Streamlit web app and ML model.
-
-Sure! Here's a professional, clear, and structured **README** for your GitHub repository for the **Student Academic Performance Predictor** Streamlit app:
-
----
-
 # 🎓 Student Academic Performance Predictor
 
 This is a **Streamlit web app** that predicts a student’s academic performance based on various features such as study hours, attendance, past scores, internet access, extracurricular activities, and educational background. The app uses a **trained machine learning model** to provide predictions in real time.
