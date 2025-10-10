@@ -7,10 +7,6 @@ from sklearn.linear_model import LinearRegression
 # -----------------------------
 # Load trained model
 # -----------------------------
-# Make sure you have saved your trained model as 'model.pkl'
-# Example: 
-# import pickle
-# pickle.dump(model, open("model.pkl", "wb"))
 
 model = joblib.load("model.joblib")
 
@@ -40,7 +36,6 @@ phd = st.checkbox("PhD")
 # -----------------------------
 # Convert inputs to model format
 # -----------------------------
-# Map categorical variables
 gender_val = 0 if gender == "Male" else 1
 internet_val = 0 if internet_access == "No" else 1
 extracurricular_val = 0 if extracurricular == "No" else 1
@@ -62,4 +57,5 @@ input_df = pd.DataFrame([[gender_val, study_hours, attendance, past_scores,
 if st.button("Predict Performance"):
     prediction = model.predict(input_df)
     st.success(f"Marks at Final Exam: {prediction[0]:.2f}")
+
 
